@@ -1,16 +1,16 @@
-# This is a sample Python script.
+import pandas
+import matplotlib.pyplot as plt
+import logging
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Project to run two-way ANOVA and plot results
 
+class CsvReader:
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    def calculate(self, a, b):
+        return a + b
 
+    def divide(self, a, b):
+        return a / b
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+problem1 = CsvReader()
+print(problem1.calculate(1, 2))
