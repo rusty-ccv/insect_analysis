@@ -1,0 +1,29 @@
+INFO:root:Reading file: data/invertebrate_data.csv
+INFO:root:Running two-way ANOVA on data:    abundance pan_colour canopy
+0          6       blue   open
+INFO:root:ANOVA results:                              sum_sq    df          F    PR(>F)
+C(pan_colour)            248.466667   2.0  14.673228  0.000069
+C(canopy)                202.800000   1.0  23.952756  0.000054
+C(pan_colour):C(canopy)    5.000000   2.0   0.295276  0.746992
+Residual                 203.200000  24.0        NaN       NaN
+INFO:root:Reading file: data/invertebrate_data.csv
+INFO:root:Creating data frame:    abundance pan_colour canopy
+0          6       blue   open
+INFO:root:Running two-way ANOVA on data:    abundance pan_colour canopy
+0          6       blue   open
+INFO:root:ANOVA results:                              sum_sq    df          F    PR(>F)
+C(pan_colour)            248.466667   2.0  14.673228  0.000069
+C(canopy)                202.800000   1.0  23.952756  0.000054
+C(pan_colour):C(canopy)    5.000000   2.0   0.295276  0.746992
+Residual                 203.200000  24.0        NaN       NaN
+ERROR:root:Error: [Errno 2] No such file or directory: 'data/invertebryate_data.csv'data/invertebryate_data.csv
+INFO:root:Reading file: data/invertebrate_data.csv
+INFO:root:Creating data frame:    abundance pan_colour canopy
+0          6       blue   open
+INFO:root:Running two-way ANOVA on data:    abundance pan_colour canopy
+0          6       blue   open
+INFO:root:ANOVA results:                              sum_sq    df          F    PR(>F)
+C(pan_colour)            248.466667   2.0  14.673228  0.000069
+C(canopy)                202.800000   1.0  23.952756  0.000054
+C(pan_colour):C(canopy)    5.000000   2.0   0.295276  0.746992
+Residual                 203.200000  24.0        NaN       NaN
